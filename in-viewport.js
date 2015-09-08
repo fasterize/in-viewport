@@ -149,8 +149,8 @@ function createInViewport(container) {
     };
 
     if (container === global.document.body) {
-      viewport.width += global.document.documentElement.clientWidth;
-      viewport.height += global.document.documentElement.clientHeight;
+      viewport.width += global.innerWidth || global.document.documentElement.clientWidth;
+      viewport.height += global.innerHeight || global.document.documentElement.clientHeight;
 
       // We update body rect computing because
       // when you have relative/absolute childs, you get bad compute

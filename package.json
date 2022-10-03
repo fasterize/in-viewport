@@ -15,13 +15,5 @@
   },
   "author": "Vincent Voyer <vincent.voyer@gmail.com> (http://github.com/vvo)",
   "license": "MIT",
-  "devDependencies": {
-    "browserify": "9.0.3",
-    "closurecompiler": "1.5.1",
-    "deumdify": "1.1.0",
-    "merge": "1.2.0",
-    "watchify": "2.4.0",
-    "zuul": "2.1.1",
-    "zuul-ngrok": "3.0.0"
-  }
+  "devDependencies": {}
 }
